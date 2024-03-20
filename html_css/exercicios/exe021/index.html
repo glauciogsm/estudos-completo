@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y Figuras en HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        nav {
+            background-color: #e9ecef;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        figcaption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Encabezado</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <h2>Bienvenido a nuestra página web</h2>
+        <p>Este es un ejemplo de una página web simple con una tabla y algunas figuras que contienen imágenes y leyendas.</p>
+        <h3>Tabla de ejemplo</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Perez</td>
+                    <td>28</td>
+                    <td>Bogotá</td>
+                </tr>
+                <tr>
+                    <td>Ana Gomez</td>
+                    <td>35</td>
+                    <td>Medellín</td>
+                </tr>
+                <tr>
+                    <td>Pedro Lopez</td>
+                    <td>42</td>
+                    <td>Cali</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Figuras de ejemplo</h3>
+        <figure>
+            <img src="https://via.placeholder.com/350x150" alt="Imagen 1">
+            <figcaption>Esta es una imagen de ejemplo 1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/350x150" alt="Imagen 2">
+            <figcaption>Esta es una imagen de ejemplo 2</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/350x150" alt="Imagen 3">
+            <figcaption>Esta es una imagen de ejemplo 3</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+</body>
+</html>
